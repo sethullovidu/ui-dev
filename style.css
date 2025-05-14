@@ -139,4 +139,8 @@ nav ul li a:hover {
     display: none;
   }
 }
-  
+.nerocontainer{
+width: 100vw;
+height: 900px;
+box-shadow: ;
+}
