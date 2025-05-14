@@ -141,15 +141,24 @@ nav ul li a:hover {
 }
 .nerocontainer{
 width: 100vw;
-height: 500px;
+height: 550px;
 display: flex;
 justify-content: center;
 align-items: center;
 background: #DBD8E3;
 }
 .subnero{
-  width: 170px;
-  height: 200px;
+  width: 320px;
+  height: 370px;
   border-radius: 10px;
   box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px;
+}
+.nerotop{
+  padding: 30px;
+  font-size: 25px;
+  text-align: center;
+}
+
+.nerofot{
+  text-align: center;
 }
