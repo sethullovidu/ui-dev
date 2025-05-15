@@ -169,7 +169,9 @@ input[type="password"] {
   font-size: 16px;                 /* Text size */
   margin-bottom: 10px;   
 }
-
+input[type="text"]:hover{
+  border: 2px solid #f1e8e8;
+}
 .nerofot{
   text-align: center;
 }
