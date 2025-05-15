@@ -158,6 +158,17 @@ background: #DBD8E3;
   font-size: 25px;
   text-align: center;
 }
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+  background-color: #DBD8E3;       /* Light blue background */
+  border: 2px solid rgba(255, 255, 255);       /* Green border */
+  border-radius: 8px;              /* Rounded corners */
+  padding: 10px;                   /* Inner spacing */
+  width: 250px;                    /* Width */
+  font-size: 16px;                 /* Text size */
+  margin-bottom: 10px;   
+}
 
 .nerofot{
   text-align: center;
