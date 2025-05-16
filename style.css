@@ -189,8 +189,12 @@ input[type="password"]:active
   padding: 10px;
 }
 .nerobut{
-  width: 150px;
+  font-size: 17px;
+  width: 120px;
   height: 30px;
   border-radius: 14px;
+  border: 2px solid #f1e8e8;
 }
-.nerobut:hover
+.nerobut:hover{
+  background-color: #DBD8E3
+}
