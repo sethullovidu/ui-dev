@@ -186,4 +186,11 @@ input[type="password"]:active
 }
 .nerofot{
   text-align: center;
+
+}
+.nerobut{
+  
+  width: 150px;
+  height: 30px;
+  border-radius: 14px;
 }
