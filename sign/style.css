@@ -5,6 +5,28 @@
 
 .navbar {
   height: 70px;
-  background-color: white;
+  width: 100vw;
+  background-color: rgb(202, 62, 62);
   box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.1);
+}
+
+nav ul {
+  width: 100vw;
+  list-style: none;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+nav li {
+  height: 50px;
+}
+
+nav a {
+  height: 100%;
+  padding: 0 30px;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  color: black;
 }/*# sourceMappingURL=style.css.map */
