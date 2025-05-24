@@ -10,7 +10,8 @@
 
 }
 .navbar ul{
-    width: ;
+    width: 100vw;
+    height: 70px;
     list-style: none;
     display: flex;
     justify-content: flex-end;
@@ -37,10 +38,11 @@ nav a:hover{
     position: fixed;
     top:0;
     right: 0;
-    height: 900px;
+    height: 100vh;
     width: 250px;
     z-index: 999;
     background-color: white;
     box-shadow: -10px 0 10px rgba(0,0,0,0.1); 
     display: flex;
+
 }
