@@ -50,4 +50,8 @@ nav a:hover {
   background-color: white;
   box-shadow: -10px 0 10px rgba(0, 0, 0, 0.1);
   display: flex;
+}
+
+.menu {
+  display: none;
 }/*# sourceMappingURL=style.css.map */
