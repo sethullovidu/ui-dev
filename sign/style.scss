@@ -50,6 +50,11 @@ nav a:hover{
     display: none;
 }
 @media (max-width:600px) {
-    
+    .navbar ul{
+        position: absolute;
+        top: 70px;
+        left: 0;
+        right: 0;
+    }
 }
     
