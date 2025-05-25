@@ -50,6 +50,9 @@ nav a:hover{
     display: none;
 }
 @media (max-width:600px) {
+    .navbar li:first-child{
+    margin-left: 50%;
+}
     .navbar ul{
         text-align: center;
         position: absolute;
