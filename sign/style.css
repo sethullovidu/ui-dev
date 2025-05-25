@@ -62,5 +62,6 @@ nav a:hover {
     top: 200px;
     left: 0;
     right: 0;
+    flex-direction: column;
   }
 }/*# sourceMappingURL=style.css.map */
