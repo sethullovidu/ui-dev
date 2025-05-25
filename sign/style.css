@@ -57,6 +57,9 @@ nav a:hover {
 }
 
 @media (max-width: 600px) {
+  .navbar ul li:first-child {
+    color: aqua;
+  }
   .navbar ul {
     position: absolute;
     top: 200px;
