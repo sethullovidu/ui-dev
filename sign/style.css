@@ -4,6 +4,7 @@
 }
 
 .navbar {
+  display: flex;
   height: 70px;
   width: 100vw;
   background-color: rgb(251, 251, 251);
