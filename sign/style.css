@@ -27,6 +27,7 @@
 .lg {
   display: flex;
   width: 15%;
+  justify-content: center;
 }
 
 .navbar a {
