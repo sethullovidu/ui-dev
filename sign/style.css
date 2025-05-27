@@ -24,6 +24,10 @@
   height: 50px;
 }
 
+.navbar li:hover {
+  background-color: #f5f5f5;
+}
+
 .lg {
   display: flex;
   width: 15%;
