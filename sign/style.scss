@@ -54,11 +54,12 @@ nav a:hover{
     display: flex;
 
 }
-
-@media (max-width:600px) {
     .menu{
     display: none;
 }
+
+@media (max-width:600px) {
+
 
     .lg{
         display: none;
