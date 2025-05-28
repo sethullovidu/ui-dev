@@ -79,6 +79,13 @@ nav a:hover {
     top: 200px;
     left: 0;
     right: 0;
+    font-size: 19px;
     flex-direction: column;
+  }
+  .navbar ul li {
+    padding: 10px;
+  }
+  .menu {
+    display: flex;
   }
 }/*# sourceMappingURL=style.css.map */
