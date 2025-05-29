@@ -86,6 +86,7 @@ nav a:hover {
     padding: 10px;
   }
   .menu {
+    width: 100vw;
     display: flex;
   }
 }/*# sourceMappingURL=style.css.map */
