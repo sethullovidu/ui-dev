@@ -81,13 +81,13 @@ nav a:hover {
         width: 100vw;
         display: flex;
         justify-content: flex-end;
-
     }
     nav a:hover {
-    background-color: #f0f0f0;
-    #menulist  {
-    overflow: hidden;
-    transition: max-height 0.3s ease-in-out;
+        background-color: #f0f0f0;
+   
     }
-}
+         #menulist {
+            overflow: hidden;
+            transition: max-height 0.3s ease-in-out;
+        }
 }
