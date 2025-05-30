@@ -94,4 +94,8 @@ nav a:hover {
   nav a:hover {
     background-color: #f0f0f0;
   }
+  nav a:hover #menulist {
+    overflow: hidden;
+    transition: max-height 0.3s ease-in-out;
+  }
 }/*# sourceMappingURL=style.css.map */
