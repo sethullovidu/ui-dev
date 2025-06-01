@@ -1,1 +1,9 @@
-/*# sourceMappingURL=style.css.map */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.navbar {
+  height: 70px;
+  width: 100vw;
+}/*# sourceMappingURL=style.css.map */
