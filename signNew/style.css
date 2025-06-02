@@ -7,4 +7,13 @@
   height: 70px;
   width: 100vw;
   box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.1);
+  display: flex;
+}
+
+.navLeft {
+  width: 30%;
+}
+
+.navRight {
+  display: flex;
 }/*# sourceMappingURL=style.css.map */
