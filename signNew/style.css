@@ -41,6 +41,10 @@
   align-items: center;
 }
 
+.content {
+  height: 80vh;
+}
+
 .footer {
   width: 100vw;
   height: 80px;
