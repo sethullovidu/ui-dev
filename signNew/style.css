@@ -49,4 +49,11 @@
   justify-content: center;
   align-items: center;
   display: none;
+}
+
+@media (max-width: 600px) {
+  .navbar {
+    height: 80vh;
+    width: 100vw;
+  }
 }/*# sourceMappingURL=style.css.map */
