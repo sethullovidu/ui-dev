@@ -43,20 +43,10 @@
   align-items: center;
 }
 
-.content {
-  height: 80vh;
-  width: 100vw;
-  background-color: rgb(255, 255, 255);
-}
-
-.footer {
-  width: 100vw;
-  height: 80px;
-  background-color: #ffffff;
-}
-
 .menulist {
+  padding: 30px;
   display: flex;
   justify-content: center;
   align-items: center;
+  display: none;
 }/*# sourceMappingURL=style.css.map */

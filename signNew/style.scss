@@ -7,7 +7,7 @@
     width: 100vw;
     display: flex;
     background-color: white;
- box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
 }
 .navLeft{
     width: 30%;
@@ -36,19 +36,21 @@
     justify-content: flex-start;
     align-items: center;
 }
-.content{
-    height: 80vh;
-    width: 100vw;
-    background-color: rgb(255, 255, 255);
-}
-.footer{
-    width: 100vw;
-    height: 80px;
-    background-color: #ffffff;
+// .content{
+//     height: 80vh;
+//     width: 100vw;
+//     background-color: white;
+// }
+// .footer{
+//     width: 100vw;
+//     height: 80px;
+//     background-color: #ffffff;
 
-}
+// }
 .menulist{
+    padding: 30px;
     display: flex;
     justify-content: center;
     align-items: center;
+    display: none;
 }
