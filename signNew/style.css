@@ -56,4 +56,7 @@
     height: 80vh;
     width: 100vw;
   }
+  .navRight {
+    display: flex;
+  }
 }/*# sourceMappingURL=style.css.map */
