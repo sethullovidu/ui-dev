@@ -57,6 +57,7 @@
     width: 100vw;
   }
   .navRight {
+    background-color: rgb(159, 159, 167);
     display: flex;
     justify-content: center;
     flex-direction: column;
