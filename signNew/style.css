@@ -1,69 +1,55 @@
 * {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
 }
 
 .navbar {
-  height: 70px;
-  width: 100vw;
   display: flex;
-  background-color: white;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 20px;
+  background-color: #333;
+  color: white;
 }
 
-.navLeft {
-  width: 30%;
-}
-
-.navLeft.logo {
-  padding: 10px;
+.logo {
+  font-size: 20px;
+  font-weight: bold;
 }
 
 .navRight {
   display: flex;
-  width: 60%;
-  justify-content: flex-end;
-  align-items: center;
+  gap: 20px;
 }
 
-.home a,
-.about a,
-.blog a,
-.contac a {
-  padding: 10px;
+.navRight a {
+  color: white;
   text-decoration: none;
-  font-size: 18px;
-  color: black;
-}
-
-.navLeft {
-  padding: 20px;
-  display: flex;
-  justify-content: flex-start;
-  align-items: center;
 }
 
 .menulist {
-  padding: 30px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
   display: none;
+  cursor: pointer;
 }
 
-@media (max-width: 600px) {
-  .navbar {
-    height: 80vh;
-    width: 100vw;
-  }
+@media (max-width: 768px) {
   .navRight {
-    background-color: rgb(216, 216, 235);
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-  }
-  .navLeft {
     display: none;
+    flex-direction: column;
+    background-color: #444;
+    position: absolute;
+    top: 60px;
+    right: 0;
+    width: 200px;
+    padding: 10px;
+  }
+  .navRight.show {
+    display: flex;
   }
   .menulist {
     display: block;

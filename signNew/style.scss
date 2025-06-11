@@ -1,74 +1,59 @@
-*{
-    margin: 0;
-    padding: 0;
-}
-.navbar{
-    height: 70px;
-    width: 100vw;
-    display: flex;
-    background-color: white;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
-}
-.navLeft{
-    width: 30%;
-}
-.navLeft.logo{
-    padding: 10px;
-}
-.navRight{
-    display: flex;
-    width: 60%;
-    justify-content: flex-end;
-    align-items: center;
-}
-.home a,
-.about a,
-.blog a,
-.contac a{
-    padding: 10px;
-    text-decoration: none;
-    font-size: 18px;
-    color: black;
-}
-.navLeft{
-    padding: 20px;
-    display: flex;
-    justify-content: flex-start;
-    align-items: center;
-}
-// .content{
-//     height: 80vh;
-//     width: 100vw;
-//     background-color: white;
-// }
-// .footer{
-//     width: 100vw;
-//     height: 80px;
-//     background-color: #ffffff;
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
 
-// }
-.menulist{
-    padding: 30px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    display: none;
-}
-@media (max-width: 600px){
-    .navbar{
-        height: 80vh;
-        width: 100vw;
-    }
-    .navRight{
-        background-color: rgb(216, 216, 235);
-        display: flex;
-        justify-content: center;
-        flex-direction: column;
-    }
-    .navLeft{
-        display: none;
-    }
-    .menulist{
-        display: block;
-    }
-}
+        body {
+            font-family: Arial, sans-serif;
+        }
+
+        .navbar {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 15px 20px;
+            background-color: #333;
+            color: white;
+        }
+
+        .logo {
+            font-size: 20px;
+            font-weight: bold;
+        }
+
+        .navRight {
+            display: flex;
+            gap: 20px;
+        }
+
+        .navRight a {
+            color: white;
+            text-decoration: none;
+        }
+
+        .menulist {
+            display: none;
+            cursor: pointer;
+        }
+
+        @media (max-width: 768px) {
+            .navRight {
+                display: none;
+                flex-direction: column;
+                background-color: #444;
+                position: absolute;
+                top: 60px;
+                right: 0;
+                width: 200px;
+                padding: 10px;
+            }
+
+            .navRight.show {
+                display: flex;
+            }
+
+            .menulist {
+                display: block;
+            }
+        }
