@@ -20,7 +20,7 @@
                 <div class="blog"><a href="">Blog</a></div>
                 <div class="contac"><a href="">Contact us</a></div>
             </div>
-            <div class="menulist" onclick="togglemenu">
+            <div class="menulist" onclick="togglemenu()">
                 <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-list"
                     viewBox="0 0 16 16">
                     <path fill-rule="evenodd"
@@ -38,7 +38,8 @@
     </div>
 
     <script>
-
+        let menul=document.getElementById("menulist")
+        menul.style.maxHeight="0px";
     </script>
 </body>
 
