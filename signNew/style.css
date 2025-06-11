@@ -65,4 +65,7 @@
   .navLeft {
     display: none;
   }
+  .menulist {
+    display: block;
+  }
 }/*# sourceMappingURL=style.css.map */
