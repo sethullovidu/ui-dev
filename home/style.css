@@ -1,4 +1,11 @@
 * {
   margin: 0;
   padding: 0;
+}
+
+nav {
+  width: 100vw;
+  height: 9vh;
+  display: flex;
+  justify-content: space-between;
 }/*# sourceMappingURL=style.css.map */
