@@ -1,4 +1,10 @@
 * {
   margin: 0;
   padding: 0;
+}
+
+.navbar {
+  width: 100vw;
+  height: 70px;
+  color: #ffffff;
 }/*# sourceMappingURL=style.css.map */
